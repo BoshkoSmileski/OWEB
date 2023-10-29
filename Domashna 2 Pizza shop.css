@@ -1,0 +1,72 @@
+body    
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table
+{
+    border: 3px solid cadetblue;
+    backdrop-filter: blur(15px);
+    width: 30%;
+    height: 50%;
+    border-spacing: 0;
+    transition: background-color 0.3s ease;
+    background-color: lightblue;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+button
+{
+    background-color: lightgoldenrodyellow;
+    border-radius: 15px;
+}
+td
+{
+    border-color: cadetblue;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: small;
+}
+th
+{
+    color: black;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow; 
+    font-family: 'Courier New', Courier, monospace;
+}
+tr
+{
+    color: lightblue;
+    border-radius: 20px;
+    background-color: lightblue
+}
+form
+{
+    border-radius: 15px;
+}
+input[type=text]
+{
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: lightgoldenrodyellow;
+}
+select
+{
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+}
+textarea
+{
+    background-color: lightgoldenrodyellow;
+}
